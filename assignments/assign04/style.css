@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li{
+    list-style: none;
+}
+.text-shadow{
+    text-shadow: 1px 1px  white;
+    font-size: larger;
+    
+}
+.style{
+    
+width: max-content;
+position: relative;
+padding: 0 7px;
+
+}
+.style::before{
+    content: "";
+    height: 1px;
+    right:  100%;
+    position: absolute;
+    width: 6rem;
+    top: 14px;
+    background:#808080;
+}
+
+/* .bg-i{
+    padding: 8px 8px;
+
+    background-color:royalblue;
+    border-radius: 45%;
+    color: #ffffff;
+} */
+.break{
+    height: 1px;
+    margin: 30px 28px;
+    
+    width: 100rem;
+
+    background:gray;
+    
+}
+.vl{
+    border-left: 1px solid white;
+    
+}/*..........login&signup.................*/
+
+.account{
+    max-width: 350px;
+    background-color:oldlace;
+}
+.mystyle{
+    width: max-content;
+    position: relative;
+    padding: 0 7px;
+
+
+}
+.mystyle::before{
+    content: "";
+    height: 2px;
+    right: 100%;
+    position: absolute;
+    width: 7rem;
+    top: 14px;
+    background: #EEE;
+}
+.mystyle::after{
+    content: "";
+    height: 2px;
+    left: 100%;
+    position: absolute;
+    width: 7rem;
+    top: 14px;
+    background: #EEE;
+}
+
+.f-i{
+    padding: 15px 18px;
+
+    background-color: royalblue;
+    border-radius: 45%;
+    color: #ffffff;
+}
+.fa-google-plus{
+    padding: 15px;
+    background-color: red;
+    border-radius: 45%;
+    color: #ffffff;
+}
+.seprator{
+    height: 2px;
+    margin: 30px 28px;
+    
+    width: 28rem;
+
+    background: #EEE;
+    
+}
+
+
+
+.loginbtn{
+    margin-left: 125px;
+}
+
+.bg-theme{
+background-image: url("image/back.jpg");
+background-size: cover;
+height: 800px;
+background-attachment: scroll;
+}
+.navbar ul li a{
+    color: #000000;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-left: 40px;
+    
+    
+}
+ .opp{
+    background-color:#ff4500;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff !important;
+
+}
+.opp:hover{
+    background-color:#4169e1;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+/*.............about............*/
+.lalwancolor{
+    color: #ff4500;
+}
+.aboutbg,.docbg{
+   background-color:  oldlace;
+}
+
+/*..........doctors.........*/
+.btn-light{
+    background-color:  #ff4500 !important;
+    color: #ffffff !important;
+}
+.card-text-color{
+    color:#ff4500 ;
+}
+
+/*..........contact.........*/
+.bgsend{
+    background-color:  #ff4500;
+
+}
+.style2{
+    
+    width: max-content;
+    position: relative;
+    padding: 0 7px;
+    
+    }
+    .style2::before{
+        content: "";
+        height: 1px;
+        right:  100%;
+        position: absolute;
+        width: 40rem;
+        top: 14px;
+        background:#808080;
+    }
+
+    /*.........appointment............*/
+    .form-width{
+        max-width: 450px;
+    }
+    .inputwithicon i{
+        position: relative;
+        left: 8px;
+        bottom: 30px;
+
+
+    }
+
+    /*........services.......*/
+    .fa-stethoscope{
+        color: orangered;
+    }
+
+    @media only screen and (max-width:600px){
+        .header,.end-content{
+            text-align: center;
+        }
+
+        
+        iframe{
+            width: 100%;
+        }
+        .form-size{
+            width: 70% !important;
+            
+            
+        }
+        textarea{
+            width: 100%;
+        }
+        .style2{
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+
+        /*.... doctors....*/
+        
+    
+
+
+
+
+        /*.... services....*/
+        .imgveiw{
+            width: 100%;
+        }
+        .servicemargin{
+            margin-top: 20px;
+        }
+    
+    
+    }
+
+    @media only screen and (max-width:480px){
+        .owl-carousel, .card{
+            width: 100% !important;
+        
+            
+        }
+        .doctorabout p,.doctorabout h4,.doctorabout h6{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            
+        }
+        
+        .mt-5.ml-5.timing{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            
+        }
+        .table.table.text-muted.mt-3.table.table-reponsive{
+            font-size: 14px;
+        }
+        
+    }
